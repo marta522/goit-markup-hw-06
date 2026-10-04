@@ -18,10 +18,11 @@
 .footer-text {
   max-width: 288px;
   font-weight: 400;
+  text-align: left;
   color: #f4f4fd;
 }
 
-.footer-blok {
+.footer .container {
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -145,8 +146,6 @@
 @media only screen and (min-width: 768px) {
   .footer .container {
     max-width: 584px;
-  }
-  .footer-blok {
     flex-direction: row;
     flex-wrap: wrap;
     align-items: flex-start;
@@ -178,14 +177,12 @@
 @media only screen and (min-width: 1158px) {
   .footer .container {
     max-width: 1158px;
-  }
-  .footer {
-    padding: 100px 0;
-  }
-  .footer-blok {
     flex-wrap: nowrap;
     column-gap: 0;
     row-gap: 0;
+  }
+  .footer {
+    padding: 100px 0;
   }
   .footer-slogan {
     flex: 0 0 264px;

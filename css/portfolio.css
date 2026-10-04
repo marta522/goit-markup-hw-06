@@ -87,6 +87,7 @@
     max-width: 768px;
     margin: 0 auto;
     justify-content: flex-start;
+    row-gap: 72px;
   }
   .portfolio-item {
     width: calc((100% - 24px) / 2);
@@ -99,5 +100,6 @@
   }
   .portfolio-list {
     max-width: none;
+    row-gap: 48px;
   }
 }

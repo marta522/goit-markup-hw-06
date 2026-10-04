@@ -46,19 +46,19 @@
 }
 .features-title {
   margin-bottom: 8px;
-  font-size: 16px;
+  font-size: 20px;
   line-height: 1.2;
+  font-weight: 700;
   text-align: center;
   text-transform: uppercase;
   color: #2e2f42;
 }
 .features-text {
-  font-weight: 400;
+  font-weight: 500;
 }
 @media only screen and (min-width: 768px) {
   .features-title {
-    font-size: 20px;
-    font-weight: 700;
+    text-align: left;
   }
 }
 @media only screen and (min-width: 1158px) {
@@ -66,5 +66,8 @@
     font-weight: 500;
     text-align: left;
     text-transform: none;
+  }
+  .features-text {
+    font-weight: 400;
   }
 }
