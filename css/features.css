@@ -46,11 +46,10 @@
 }
 .features-title {
   margin-bottom: 8px;
-  font-size: 20px;
-  line-height: 1.2;
+  font-size: 36px;
+  line-height: 1.11;
   font-weight: 700;
   text-align: center;
-  text-transform: uppercase;
   color: #2e2f42;
 }
 .features-text {
@@ -65,7 +64,6 @@
   .features-title {
     font-weight: 500;
     text-align: left;
-    text-transform: none;
   }
   .features-text {
     font-weight: 400;
