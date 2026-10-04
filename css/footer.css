@@ -1,0 +1,137 @@
+.footer {
+  padding: 100px 0;
+  background: #2e2f42;
+}
+.footer-logo {
+  display: block;
+  margin-bottom: 16px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.33;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #f4f4fd;
+}
+.accent {
+  color: #4d5ae5;
+}
+.footer-text {
+  max-width: 264px;
+  font-weight: 400;
+  color: #f4f4fd;
+}
+
+.footer-blok {
+  display: flex;
+  padding: 0 15px;
+}
+
+.footer-slogan {
+  max-width: 264px;
+}
+
+.footer-wrapper {
+  margin-left: 120px;
+  margin-right: auto;
+}
+
+.footer-title {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.socials-light {
+  gap: 16px;
+}
+
+.socials-light .socials-link {
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+
+.socials-light .socials-link:hover,
+.socials-light .socials-link:focus {
+  background-color: #31d0aa;
+}
+
+.socials-light .socials-link {
+  border-radius: 20px;
+}
+
+/* Footer form styles */
+
+.footer-wrapper-form {
+  margin-left: auto;
+}
+.footer-title-form {
+  color: #fff;
+  margin-bottom: 16px;
+}
+.footer-form {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+.footer-form-field {
+  display: flex;
+  align-items: center;
+}
+.footer-form-input {
+  box-sizing: border-box;
+  padding: 8px 16px;
+  width: 264px;
+  height: 40px;
+
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #fff;
+
+  background-color: transparent;
+  outline: transparent;
+
+  border: 1px solid #fff;
+  border-radius: 4px;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: border-color;
+}
+
+.footer-form-input:focus {
+  border-color: #31d0aa;
+}
+
+.footer-form-input::placeholder {
+  color: #fff;
+}
+.footer-form-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+
+  border-radius: 4px;
+  padding: 8px 24px;
+  width: 165px;
+  height: 40px;
+  max-width: 165px;
+  background: #4d5ae5;
+
+  color: #fff;
+
+  border: none;
+  cursor: pointer;
+
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition-property: background-color;
+}
+.footer-form-button:hover,
+.footer-form-button:focus {
+  background-color: #31d0aa;
+}
+.button-icon {
+  width: 24px;
+  height: 20px;
+
+  letter-spacing: 0.04em;
+}

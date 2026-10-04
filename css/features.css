@@ -1,0 +1,35 @@
+.features {
+}
+.features-list {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+}
+.features-item {
+  width: calc((100% - 24px * 3) / 4);
+}
+
+.features-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 8px;
+
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  width: 264px;
+  height: 112px;
+  background: #f4f4fd;
+}
+.features-icon {
+}
+.features-title {
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 1.2;
+  color: #2e2f42;
+}
+.features-text {
+  max-width: 264px;
+  font-weight: 400;
+}
