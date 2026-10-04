@@ -1,5 +1,5 @@
 .footer {
-  padding: 100px 0;
+  padding: 96px 0;
   background: #2e2f42;
 }
 .footer-logo {
@@ -16,23 +16,26 @@
   color: #4d5ae5;
 }
 .footer-text {
-  max-width: 264px;
+  max-width: 288px;
   font-weight: 400;
   color: #f4f4fd;
 }
 
 .footer-blok {
   display: flex;
-  padding: 0 15px;
+  flex-direction: column;
+  align-items: center;
+  gap: 72px;
+  text-align: center;
 }
 
 .footer-slogan {
-  max-width: 264px;
+  max-width: 288px;
+  text-align: center;
 }
 
 .footer-wrapper {
-  margin-left: 120px;
-  margin-right: auto;
+  margin: 0;
 }
 
 .footer-title {
@@ -60,7 +63,7 @@
 /* Footer form styles */
 
 .footer-wrapper-form {
-  margin-left: auto;
+  width: 100%;
 }
 .footer-title-form {
   color: #fff;
@@ -68,17 +71,20 @@
 }
 .footer-form {
   display: flex;
+  flex-direction: column;
   align-items: center;
-  gap: 24px;
+  gap: 16px;
 }
 .footer-form-field {
   display: flex;
   align-items: center;
+  width: 100%;
+  max-width: 398px;
 }
 .footer-form-input {
   box-sizing: border-box;
   padding: 8px 16px;
-  width: 264px;
+  width: 100%;
   height: 40px;
 
   font-weight: 400;
@@ -134,4 +140,68 @@
   height: 20px;
 
   letter-spacing: 0.04em;
+}
+
+@media only screen and (min-width: 768px) {
+  .footer .container {
+    max-width: 584px;
+  }
+  .footer-blok {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    column-gap: 24px;
+    row-gap: 72px;
+    text-align: left;
+  }
+  .footer-slogan {
+    width: 264px;
+    text-align: left;
+  }
+  .footer-text {
+    max-width: 264px;
+  }
+  .footer-wrapper-form {
+    width: 100%;
+  }
+  .footer-form {
+    flex-direction: row;
+    align-items: flex-start;
+    gap: 24px;
+  }
+  .footer-form-field {
+    width: 264px;
+  }
+}
+
+@media only screen and (min-width: 1158px) {
+  .footer .container {
+    max-width: 1158px;
+  }
+  .footer {
+    padding: 100px 0;
+  }
+  .footer-blok {
+    flex-wrap: nowrap;
+    column-gap: 0;
+    row-gap: 0;
+  }
+  .footer-slogan {
+    flex: 0 0 264px;
+  }
+  .footer-wrapper {
+    margin-left: 120px;
+    margin-right: auto;
+  }
+  .footer-wrapper-form {
+    width: auto;
+    margin-left: auto;
+  }
+  .footer-form {
+    flex-wrap: nowrap;
+  }
+  .footer-form-field {
+    width: 264px;
+  }
 }
